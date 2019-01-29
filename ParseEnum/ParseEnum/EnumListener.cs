@@ -22,7 +22,7 @@ namespace ParseEnum
         public override void EnterEnumDeclaration(EnumParser.EnumDeclarationContext context)
         {
             name = Char.ToLowerInvariant(context.ID().ToString()[0]) + context.ID().ToString().Substring(1);
-            builder.AppendLine("const " + name + " {");
+            builder.AppendLine("const " + name + " = {");
         }
 
         public override void ExitEnumDeclaration(EnumParser.EnumDeclarationContext context)
