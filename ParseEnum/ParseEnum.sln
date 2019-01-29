@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseEnum", "ParseEnum\ParseEnum.csproj", "{A5B5E2AB-C351-4B3D-8D65-45986496ABE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{69BD9D75-7A26-4B4B-98F3-8702108E04A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B5E2AB-C351-4B3D-8D65-45986496ABE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B5E2AB-C351-4B3D-8D65-45986496ABE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B5E2AB-C351-4B3D-8D65-45986496ABE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B5E2AB-C351-4B3D-8D65-45986496ABE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BD9D75-7A26-4B4B-98F3-8702108E04A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BD9D75-7A26-4B4B-98F3-8702108E04A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BD9D75-7A26-4B4B-98F3-8702108E04A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BD9D75-7A26-4B4B-98F3-8702108E04A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E84B6F54-5EC6-4A8B-8DA0-FFA42DF94AF5}
+	EndGlobalSection
+EndGlobal
